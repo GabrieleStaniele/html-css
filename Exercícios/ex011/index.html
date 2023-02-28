@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p><abbr title="omgggg">tente</abbr> abrir este site em vários dispositivos de tamanhos diferentes. Ou aumente e diminua o tamanho do navegador</p>
+    <p>tag usada <strong>picture, source media type e img </strong> <br>max width: largura. </p>
+    <p><strong>Cuidado, a base é a imagem padão e temos que colocar na ORDEM, ex: da menor pra menor</strong></p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo audios!</h1>
+    <p>Vamos aprender a adicionar audio ao site, lembrando que os audios estao em uma subpasta do arquivo do site <br>mp3, wav ogg</p>
+    <h3>tag usadas: <br> audio preloud metadata autoplay constrols <br> source src" type"</h3>
+    <audio preload="metadata"autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"> <!-- ele vai tentar carregar esse, dps os próximos (if-else)-->
+        <source src="midia/guanacast-33.mp3" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+        <p>Infelizmente seu dispositivo não aceita o audio. <a href="midia/guanacast-33.mp3"></a> Clique aqui para baixar o arquivo mp3/p>
+    </audio>
+</body>
+</html>

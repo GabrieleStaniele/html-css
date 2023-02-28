@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Módulo 2</title>
+    <link rel="shortcut icon" href="html.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family:'idroid' ;
+            src: url(fontes/._idroid) format(opentype);
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            background-color: rgb(12, 177, 12);
+        }
+        h1{
+            font-family: 'idroid', sans-serif;
+            font-size: 20px;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-indent: 30px;
+        }
+        
+        header{
+            text-align: center;
+            background-image: linear-gradient(rgba(144, 238, 144, 0.734), rgba(8, 121, 8, 0.793));
+            padding: 10px 2px;
+            margin: 0px;
+            color: white;
+            
+        }
+       a{
+            text-decoration: none;
+            
+        }
+        #menu{
+            text-align: left;
+        }
+        nav> a:hover{
+            color: greenyellow;
+        }
+        .destaque{
+            color: darkgreen;
+            font-weight: bold;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: justify;
+            box-shadow: 20px black;
+            align-content: center;
+        }
+        h2{
+            background-color: rgba(144, 238, 144, 0.701);
+            font-family: 'idroid', sans-serif;
+        }
+        h3{
+            background-color: rgb(9, 119, 9);
+        }
+        iframe{
+            background-color: darkgreen;
+            align-items: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgreen;
+            padding: 5px;
+            border-radius: 20px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <p>Tudo aquilo que você quis saber sobre o mundo  Tech, em um único lugar.</p>
+        <nav id="menu">
+        <a href="#">Home</a>
+        <a href="#">Notícias</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+    <main>
+        <h1>HISTÓRIA DO MASCOTE DO ANDROID</h1>
+        <p>Provavelmente você sabe que o sistema operacional <span class="destaque">Android</span>, mantido pelo <span class="destaque">Google</span> é um dos mais ultilizados para dispositivos móveis em todo o mundo. Ma talvez você não sabe que o seu simpático mascote tem um nome e uma história muito curiosa. Pois acompanhe esse artigo para aprender muita coisa sobre o robozinho.</p>
+        <h2>A PRIMEIRA VERSÃO</h2>
+        <p>A primeira tentativa de criar um macote surgiu em 2006 e veio de um desenvolvedor chamado <span class="dest
+            "><a href="#">Dan Morril</a></span>. Ele conta que abriu o <span class="dest
+            "><a href="#">Inkascape</a></span> (software livre para a vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personalizar o sistema apenas para a sua equipe, nõa existia nenhuma solicitação da empresa para a criação de um mascote.
+        </p>
+        <picture>
+            <source media="(max-width:400px  )" srcset="imagens/dan-droids-pq.png" type="image/png">
+            <img src="imagens/dan-droids.png" alt="primeiro mascote">
+        </picture>
+        <p>Essa primieira versão bizarra até foi batizada em homenagem ao seu criador. Seriam os <span class="destaque">Dandroids.</span></p>
+        <h2>SURGE UM NOVO MASCOTE</h2>
+        <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <span id="destaque">Irina Blok</span>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
+        </p>
+        <picture>
+            <source media="(max-width: 450px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina">
+        </picture>
+        <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.
+        </p>
+        <img src="imagens/bugdroid.png" alt="android">
+        <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
+        </p>
+    </main>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5K4pEk19nhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <main>
+    <article>
+        <aside>
+        <h3>Quer saber mais? </h3>
+        <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+        </p>
+        <ul>1.5 - Cupcake</ul>
+        <ul>1.6 - Donut</ul>
+        <ul>3.0 - Eclair</ul>
+        <ul>2.2 - Froyo</ul>
+        <ul>2.3 - Gingerbread</ul>
+        <ul>3.0 - Honeycomb</ul>
+        <ul>4.0 - Ice Cream Sandwich</ul>
+        <ul>4.1 - Jelly Bean</ul>
+        <ul>4.4 - KitKat</ul>
+        <ul>5.0 - Lolipop</ul>
+        <ul>6.0 - Marshmallow</ul>
+        <ul>7.0 - Nougat</ul>    
+        <ul>8.0 - Oreo</ul>
+        <ul>9.0 - Pie </ul>  
+        <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.
+        </p>
+        <p><a href="#">Acesse aqui </a>o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.
+        </p>
+        </aside>
+    </article>
+    <p>Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.
+    </p>
+    
+    </main>
+    <footer style="background-color: darkgreen;">
+        <p>Site criado por Gustavo Guanabara para o CursoemVideo.</p>
+    </footer>
+</body>
+</html>
